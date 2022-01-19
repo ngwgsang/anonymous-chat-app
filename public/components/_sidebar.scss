@@ -1,0 +1,22 @@
+.app__sidebar{
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    &__number{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.4rem;
+        background: $cl-f;
+        height: 4rem;
+        font-weight: 500;
+    }
+    &__memberlist{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        list-style: none;
+        width: 100%;
+    }
+}

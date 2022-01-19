@@ -1,0 +1,33 @@
+
+
+.message{
+    background: $cl-2;
+    color: $cl-f;
+    max-width: 35rem;
+    padding: 1rem 2rem;
+    border-radius: 0.4rem;
+    position: relative;
+    &__info{
+        position: absolute;
+        bottom: 0;
+        font-size: 0.2rem;
+        width: 10rem;
+        transform: translateY(130%);
+    }
+}
+
+
+.other{
+    align-self: flex-start;
+    .message__info{
+        left: 0;
+        text-align: left;
+    }
+}
+.mine{
+    align-self: flex-end;
+    .message__info{
+        right: 0;
+        text-align: right;
+    }
+}

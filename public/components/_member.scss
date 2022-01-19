@@ -1,0 +1,19 @@
+.member{
+    padding: 0.5rem;
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+    background: $cl-f;
+    color: $cl-0;
+    height: 5rem;
+    width: 100%;
+    border-radius: 0.4rem;
+    &--avatar{
+        width: 4rem;
+        height: 4rem;
+        border-radius: 10rem;
+    }
+    &--name{
+        font-weight: 500;
+    }
+}
