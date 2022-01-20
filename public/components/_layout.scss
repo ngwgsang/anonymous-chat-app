@@ -7,7 +7,35 @@
         background: $cl-bg-1;
     }
     &__main{
-        flex: 9;
+        flex: 12;
         background: $cl-bg-2;
     }
 }
+.indexpage{
+    width: 100%;
+    height: 100%;
+    background: $cl-bg-2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__controller{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        width: 40%;
+        &__inputbar{
+            width: 100%;
+            height: 4rem;
+        }
+        &__groupbtn{
+            width: 100%;
+            display: flex;
+            gap: 2rem;
+            height: 4rem;
+            &__btn{
+                width: 100%;
+            }
+        }
+    }
+}
+

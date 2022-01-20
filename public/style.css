@@ -45,10 +45,55 @@ body {
 }
 
 .app__main {
-  -webkit-box-flex: 9;
-      -ms-flex: 9;
-          flex: 9;
+  -webkit-box-flex: 12;
+      -ms-flex: 12;
+          flex: 12;
   background: #191919;
+}
+
+.indexpage {
+  width: 100%;
+  height: 100%;
+  background: #191919;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.indexpage__controller {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 2rem;
+  width: 40%;
+}
+
+.indexpage__controller__inputbar {
+  width: 100%;
+  height: 4rem;
+}
+
+.indexpage__controller__groupbtn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+  height: 4rem;
+}
+
+.indexpage__controller__groupbtn__btn {
+  width: 100%;
 }
 
 .app__main {
@@ -64,7 +109,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
   list-style: none;
   height: 100%;
   overflow-y: scroll;
@@ -101,7 +146,7 @@ body {
 }
 
 .app__sidebar {
-  padding: 2rem 1rem;
+  padding: 2rem 0.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -125,7 +170,8 @@ body {
   border-radius: 0.4rem;
   background: #fff;
   height: 4rem;
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 1.6rem;
 }
 
 .app__sidebar__memberlist {
@@ -193,6 +239,10 @@ body {
   height: 5rem;
   width: 100%;
   border-radius: 0.4rem;
+  border-bottom: 0.4rem solid #2980b9;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .member--avatar {
@@ -202,6 +252,40 @@ body {
 }
 
 .member--name {
-  font-weight: 500;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+.indexpage__controller__inputbar {
+  border-radius: 0.4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: 700;
+}
+
+.indexpage__controller__groupbtn__btn {
+  background: #fff;
+  padding: 1rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 0.4rem;
+  font-weight: 700;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

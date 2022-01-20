@@ -8,12 +8,16 @@
     height: 5rem;
     width: 100%;
     border-radius: 0.4rem;
+    border-bottom: 0.4rem solid $cl-2;
+    justify-content: center;
     &--avatar{
         width: 4rem;
         height: 4rem;
         border-radius: 10rem;
     }
     &--name{
-        font-weight: 500;
+        font-weight: 700;
+        font-size: 1.4rem;
     }
+
 }

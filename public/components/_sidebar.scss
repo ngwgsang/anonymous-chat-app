@@ -1,5 +1,5 @@
 .app__sidebar{
-    padding: 2rem 1rem;
+    padding: 2rem 0.5rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -10,7 +10,8 @@
         border-radius: 0.4rem;
         background: $cl-f;
         height: 4rem;
-        font-weight: 500;
+        font-weight: 700;
+        font-size: 1.6rem;
     }
     &__memberlist{
         display: flex;
