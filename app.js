@@ -3,7 +3,7 @@ require('dotenv').config()
 const express = require('express');
 const { Server } = require('ws');
 const PORT = process.env.PORT || 3000;
-const INDEX = '../public/index.html';
+const INDEX = './public/index.html';
 
 const server = express()
   .use(express.static('./public'))
@@ -25,7 +25,7 @@ const { getDatabase, set, get , ref , child , update, remove, push  } = require(
 const { async } = require('@firebase/util');
 
 const firebaseConfig = {
-  apiKey: process.env.API_KEY,
+  apiKey: 'AIzaSyDS93vaVvpEqc1sIR6csQ38PZL7Dhc6HW8',
   authDomain: "chat-app-24f8d.firebaseapp.com",
   databaseURL: "https://chat-app-24f8d-default-rtdb.firebaseio.com",
   projectId: "chat-app-24f8d",

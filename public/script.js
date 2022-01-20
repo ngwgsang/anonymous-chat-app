@@ -6,15 +6,6 @@ const redirect = (page) =>{
 redirect('.indexpage')
 
 // document.querySelector('.btn--join').addEventListener('click', (e) => redirect('.app'))
-
-
-Toastify({
-    text: "This is a toast",
-    className: "info",
-    style: {
-      background: "linear-gradient(to right, #00b09b, #96c93d)",
-    }
-  }).showToast();
 //###########################################################################
 
 
@@ -52,13 +43,13 @@ ws.addEventListener("open", ()=>{
     
     ws.addEventListener("message", (data) =>{
         
-        Toastify({
-            text: data.data,
-            className: "info",
-            style: {
-              background: "linear-gradient(to right, #00b09b, #96c93d)",
-            }
-          }).showToast();
+        // Toastify({
+        //     text: data.data,
+        //     className: "info",
+        //     style: {
+        //       background: "linear-gradient(to right, #00b09b, #96c93d)",
+        //     }
+        //   }).showToast();
         
           renderDataToMsg(data.data);
           if (flag == 1) {
